@@ -1,0 +1,25 @@
+.navigation {
+    /* margin: 0 auto; */
+    background-color: transparent;
+    color: #b907dd;
+    border-spacing: 60px 10px;
+    letter-spacing: 2px;
+}
+
+.navigation tr td img{
+    width: 10%;
+}
+.navigation tr .burger{
+    display: none;
+}
+
+
+@media screen and (max-width:700px) {
+    .navigation td{
+        display: block;
+    }
+    .navigation tr .burger{
+        display: block;
+        cursor: pointer;
+    }
+}
